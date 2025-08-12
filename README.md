@@ -36,12 +36,12 @@ Columns:
 
 ## 🚀 Steps to Run
 1. Upload the `archive.zip` file containing `Iris.csv` to the environment (e.g., Google Colab).
-2. Run the `KNN_classification.py` script or the Jupyter Notebook.
-3. The script will:
+2. Open and run the `KNN_Classification.ipynb` notebook.
+3. The notebook will:
    - Extract CSV from ZIP
    - Normalize features
    - Train & evaluate KNN model
-   - Display confusion matrix & decision boundary plot
+   - Display confusion matrix & decision boundary plot directly in the notebook
 
 ---
 
@@ -49,15 +49,6 @@ Columns:
 - **Accuracy**: Achieved high accuracy (>95%) with the best K value
 - **Confusion Matrix**: Shows correct classification distribution
 - **Decision Boundary**: Graphical representation of KNN's classification zones
-
----
-
-## 📷 Example Output
-### Confusion Matrix
-![Confusion Matrix](assets/confusion_matrix.png)
-
-### Decision Boundary
-![Decision Boundary](assets/decision_boundary.png)
 
 ---
 
